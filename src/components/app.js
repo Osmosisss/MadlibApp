@@ -4,7 +4,14 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>DevCamp React Starter</h1>
+        <div className="backgroundSkew">
+          <div className="madlib-heading">
+            <h1>Osmosis Mad Libs</h1>
+            <div className="madlib-subheading">
+            FIll out the fields below and click the generate button<br/>to see Mad Lib story.
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
