@@ -8,7 +8,7 @@ export default class App extends Component {
         <div className="backgroundSkew">
 
           <div className="madlib-heading">
-            <h1>Osmosis Mad Libs</h1>
+            <h1>Osmosis Madlib</h1>
             <div className="madlib-subheading">
             FIll out the fields below and click the generate button<br/>to see Mad Lib story.
             </div>

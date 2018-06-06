@@ -96,9 +96,9 @@ class MadlibForm extends Component {
 
     renderButton = function() {
         if(this.state.completedForm) { 
-        return <a className="clear-button" onClick={this.handleClick}>Clear Mad Lib</a>
+        return <a className="clear-button" onClick={this.handleClick}>Clear Madlib</a>
         }
-        return <input type='submit' className='generate-button' value='Generate Mad Lib'/>
+        return <input type='submit' className='generate-button' value='Generate Madlib'/>
     }
     render() {
 
